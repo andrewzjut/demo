@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html >
+<head lang="en">
+    <meta charset="GB2312">
+    <title>泰然云日志平台</title>
+    <link rel="stylesheet" href="framework/bootstrap-3.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/cxcalendar.css">
+    <link rel="stylesheet" href="framework/Font-Awesome-3.2.1/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/calendar-date.css">
+    <link id="scrollUpTheme" rel="stylesheet" href="css/themes/pill.css">
+    <link rel="stylesheet" href="css/pubu.css">
+    <link rel="stylesheet" href="css/bigimg.css">
+    <!--<link id="scrollUpTheme1" rel="stylesheet" href="css/labs.css">-->
+
+    <script src="framework/jquery-1.9.1.js"></script>
+    <script src="js/calendar.js"></script>
+    <script type="text/javascript" src="framework/bootstrap-3.0.0/js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/index2.html.js"></script>
+    <script type="text/javascript" src="js/calendar-date.js" charset="GB2312"></script>
+</head>
+<body onload="showLog()">
+<header id="header" class="navbar" ui-view="headbar">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-brand">
+            <img src="images/logo.png" height="34"/>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">管理员设置 <span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="#">修改密码</a></li>
+                        <li><a href="#">添加管理员</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">退出登录</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</header>
+<section id="top"></section>
+<nav id="nav" class="nav-primary nav-vertical" ui-view="navtype" ng-controller="navCtrl">
+    <ul class="nav">
+        <li>
+            <a href="#userMeun" class="nav-header menu-first collapsed" data-toggle="collapse"><i class="icon-user-md icon-large"></i> 日志类型</a>
+            <ul id="userMeun" class="nav nav-list collapse menu-second">
+                <li><a href="log_analysis_demo.html">access</a></li>
+                <li><a href="localhost.html">localhost</a></li>
+                <li><a href="hzcms.html">hzcms</a></li>
+                <li><a href="mysqld.html">mysqld</a></li>
+                <li><a href="catalina.html">catalina</a></li>
+
+            </ul>
+        </li>
+        <!--<li>-->
+        <!--<a href="#articleMenu" class="nav-header menu-first collapsed" data-toggle="collapse"><i class="icon-book icon-large"></i> 文章管理</a>-->
+        <!--<ul id="articleMenu" class="nav nav-list collapse menu-second">-->
+        <!--<li><a href="#">添加文章</a></li>-->
+        <!--<li><a href="#">文章列表</a></li>-->
+        <!--</ul>-->
+        <!--</li>-->
+    </ul>
+</nav>
+
+<section id="content">
+
+    <section class="main padder">
+        <div>
+            <p>
+                <!--日志类型：<select id="get_log_name" name="log_name">-->
+                <!--<option value="mysqld">mysqld</option>-->
+                <!--<option value="localhost_access_log" selected="true">localhost_access_log</option>-->
+                <!--<option value="localhost">localhost</option>-->
+                <!--<option value="hzcms">hzcms</option>-->
+                <!--<option value="catalina">catalina</option>-->
+            <!--</select>-->
+                搜索类型：<input  id="search" name="GETIP" type="text" style="width:150px;height:25px">
+
+                开始时间：<input id="start_time" name="mydate" type="text" class="input_cxcalendar" style="width:200px;height:25px" >
+                结束时间：<input id="end_time" name="mydate2" type="text" class="input_cxcalendar" style="width:200px;height:25px">
+                <button  id="viewmoretablename" value="catalina" onclick="showLog()" style="width:120px;height:28px;margin-left:80px"><label>获取数据</label></button>
+            </p>
+
+
+        </div>
+
+        <div class="clear"></div>
+        <div class="templatemo-content-widget no-padding">
+            <div class="panel panel-default table-responsive">
+                <table name="tableHead"  class="table table-striped table-bordered templatemo-user-table">
+                    <thead>
+                    <tr style="background-color:#16bebd">
+                        <td style="width: 50px">序号</td>
+                        <td  >日志信息</td>
+                    </tr>
+                    </thead>
+                    <tbody id="getJSON">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div  class="load_more" onclick="viewMore()" >
+            <span class="load_more_text" >加载更多...</span>
+        </div>
+
+    </section>
+</section>
+
+<script src="js/jquery.scrollUp.min.js"></script>
+<script>
+    $(function () {
+        $.scrollUp();
+    });
+</script>
+
+
+</body>
+<script type="text/javascript" charset="GB2312">
+    $('.input_cxcalendar').each(function(){
+        var a = new Calendar({
+            targetCls: $(this),
+            type: 'yyyy-mm-dd HH:MM:SS',
+            wday:0
+        },function(val){
+            console.log(val);
+        });
+    });
+</script>
+
+</html>

@@ -1,0 +1,133 @@
+body{
+    font-family: "Helvetica Neue",Microsoft YaHei, Helvetica, Arial, sans-serif;
+    background: #efefef;
+}
+.login{
+    background: #efefef;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -10;
+}
+.login-widget{
+    max-width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 0px 0px 1px 1px rgba(161, 159, 159, 0.2);
+    background-color: white;
+    margin-top: 20px;
+}
+.login-widget header {
+    margin-bottom: 40px;
+    text-align: center;
+    line-height: 1.42857143;
+    color: #333;
+}
+.login-widget .square {
+    width: 18px;
+    height: 18px;
+    border: 3px solid #13895F;
+    display: inline-block;
+    vertical-align: middle;
+}
+.login-widget h1 {
+    display: inline-block;
+    font-size: 1.8em;
+    text-align: center;
+    text-transform: uppercase;
+    vertical-align: middle;
+    margin: 0;
+}
+.login-form .form-group {
+    margin-bottom: 20px;
+}
+.login-form .form-group #c1{
+    margin-left: 0;
+}
+.btn-success {
+    padding: 10px 30px;
+    width: 100%;
+}
+/*****header*****/
+.navbar{
+    border-bottom: 1px solid #d1d4d7;
+    box-shadow: 0 0 5px rgba(0,0,0,.3);
+    z-index: 1010;
+    border-radius: 0;
+    padding: 0;
+    margin-bottom: 0;
+    position: fixed;
+    width: 100%;
+    background: #fff;
+}
+.navbar-brand{
+    padding: 7px 15px;
+}
+
+#nav{
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 51px;
+    bottom: 0;
+}
+.nav-primary {
+    background-color: #162636;
+}
+.nav-primary ul li a {
+    color: #8e9eae;
+}
+.menu-second li{
+    text-align: right;
+}
+
+#content{
+    position:absolute;
+    top: 51px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding-left: 45px;
+}
+#content{
+    padding-left: 120px;
+}
+.padder {
+    padding: 15px;
+}
+.clear{
+    clear: both;
+}
+.templatemo-content-widget.no-padding {
+    margin-top: 20px;
+    padding: 0;
+}
+.templatemo-content-widget {
+    border-radius: 10px;
+    padding: 30px;
+    position: relative;
+    box-shadow: 0px 0px 1px 1px rgba(161, 159, 159, 0.1);
+}
+.panel {
+    border-radius: 10px;
+}
+.panel-default {
+    border-color: #ddd;
+}
+.templatemo-user-table thead {
+    background-color: #39ADB4;
+    color: white;
+}
+.white-text {
+    color: white;
+}
+.td-color{
+    color: red;
+}

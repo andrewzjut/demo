@@ -1,0 +1,431 @@
+{
+    "statusType": "OK",
+    "entity": {
+        "pageSize": 41,
+        "resultList": [
+            {
+                "rowkey": "01:9223370602125178807999985:127.0.0.1",
+                "bytesSent": "251",
+                "dateTime": "19/Jun/2015:23:59:57 +0800",
+                "httpStatus": "200",
+                "logicalUsername": "-",
+                "remoteHostName": "127.0.0.1",
+                "remoteUser": "-",
+                "requestFirstLine": "POST /thmemberpoints/memberPointsService/pointsService HTTP/1.1"
+            },
+            {
+                "rowkey": "01:9223370602125257807999997:127.0.0.1",
+                "bytesSent": "1040",
+                "dateTime": "19/Jun/2015:23:58:38 +0800",
+                "httpStatus": "200",
+                "logicalUsername": "-",
+                "remoteHostName": "127.0.0.1",
+                "remoteUser": "-",
+                "requestFirstLine": "POST /thmemberpoints/memberPointsService/pointsService HTTP/1.1"
+            },
+            {
+                "rowkey": "01:9223370602125344807999999:127.0.0.1",
+                "bytesSent": "251",
+                "dateTime": "19/Jun/2015:23:57:11 +0800",
+                "httpStatus": "200",
+                "logicalUsername": "-",
+                "remoteHostName": "127.0.0.1",
+                "remoteUser": "-",
+                "requestFirstLine": "POST /thmemberpoints/memberPointsService/pointsService HTTP/1.1"
+            },
+            {
+                "rowkey": "01:9223370602125408807999999:127.0.0.1",
+                "bytesSent": "251",
+                "dateTime": "19/Jun/2015:23:56:07 +0800",
+                "httpStatus": "200",
+                "logicalUsername": "-",
+                "remoteHostName": "127.0.0.1",
+                "remoteUser": "-",
+                "requestFirstLine": "POST /thmemberpoints/memberPointsService/pointsService HTTP/1.1"
+            },
+            {
+                "rowkey": "01:9223370602125411807999996:127.0.0.1",
+                "bytesSent": "1042",
+                "dateTime": "19/Jun/2015:23:56:04 +0800",
+                "httpStatus": "200",
+                "logicalUsername": "-",
+                "remoteHostName": "127.0.0.1",
+                "remoteUser": "-",
+                "requestFirstLine": "POST /thmemberpoints/memberPointsService/pointsService HTTP/1.1"
+            },
+            {
+                "rowkey": "01:9223370602125452807999999:127.0.0.1",
+                "bytesSent": "251",
+                "dateTime": "19/Jun/2015:23:55:23 +0800",
+                "httpStatus": "200",
+                "logicalUsername": "-",
+                "remoteHostName": "127.0.0.1",
+                "remoteUser": "-",
+                "requestFirstLine": "POST /thmemberpoints/memberPointsService/pointsService HTTP/1.1"
+            },
+            {
+                "rowkey": "01:9223370602125586807999999:127.0.0.1",
+                "bytesSent": "896",
+                "dateTime": "19/Jun/2015:23:53:09 +0800",
+                "httpStatus": "200",
+                "logicalUsername": "-",
+                "remoteHostName": "127.0.0.1",
+                "remoteUser": "-",
+                "requestFirstLine": "POST /thmemberpoints/memberPointsService/pointsService HTTP/1.1"
+            },
+            {
+                "rowkey": "01:9223370602125601807999999:127.0.0.1",
+                "bytesSent": "1040",
+                "dateTime": "19/Jun/2015:23:52:54 +0800",
+                "httpStatus": "200",
+                "logicalUsername": "-",
+                "remoteHostName": "127.0.0.1",
+                "remoteUser": "-",
+                "requestFirstLine": "POST /thmemberpoints/memberPointsService/pointsService HTTP/1.1"
+            },
+            {
+                "rowkey": "01:9223370602125616807999999:127.0.0.1",
+                "bytesSent": "251",
+                "dateTime": "19/Jun/2015:23:52:39 +0800",
+                "httpStatus": "200",
+                "logicalUsername": "-",
+                "remoteHostName": "127.0.0.1",
+                "remoteUser": "-",
+                "requestFirstLine": "POST /thmemberpoints/memberPointsService/pointsService HTTP/1.1"
+            },
+            {
+                "rowkey": "01:9223370602125656807999999:127.0.0.1",
+                "bytesSent": "251",
+                "dateTime": "19/Jun/2015:23:51:59 +0800",
+                "httpStatus": "200",
+                "logicalUsername": "-",
+                "remoteHostName": "127.0.0.1",
+                "remoteUser": "-",
+                "requestFirstLine": "POST /thmemberpoints/memberPointsService/pointsService HTTP/1.1"
+            },
+            {
+                "rowkey": "01:9223370602125721807999999:127.0.0.1",
+                "bytesSent": "251",
+                "dateTime": "19/Jun/2015:23:50:54 +0800",
+                "httpStatus": "200",
+                "logicalUsername": "-",
+                "remoteHostName": "127.0.0.1",
+                "remoteUser": "-",
+                "requestFirstLine": "POST /thmemberpoints/memberPointsService/pointsService HTTP/1.1"
+            },
+            {
+                "rowkey": "01:9223370602125819807999999:127.0.0.1",
+                "bytesSent": "251",
+                "dateTime": "19/Jun/2015:23:49:16 +0800",
+                "httpStatus": "200",
+                "logicalUsername": "-",
+                "remoteHostName": "127.0.0.1",
+                "remoteUser": "-",
+                "requestFirstLine": "POST /thmemberpoints/memberPointsService/pointsService HTTP/1.1"
+            },
+            {
+                "rowkey": "01:9223370602125942807999998:127.0.0.1",
+                "bytesSent": "251",
+                "dateTime": "19/Jun/2015:23:47:13 +0800",
+                "httpStatus": "200",
+                "logicalUsername": "-",
+                "remoteHostName": "127.0.0.1",
+                "remoteUser": "-",
+                "requestFirstLine": "POST /thmemberpoints/memberPointsService/pointsService HTTP/1.1"
+            },
+            {
+                "rowkey": "01:9223370602126012807999999:127.0.0.1",
+                "bytesSent": "251",
+                "dateTime": "19/Jun/2015:23:46:03 +0800",
+                "httpStatus": "200",
+                "logicalUsername": "-",
+                "remoteHostName": "127.0.0.1",
+                "remoteUser": "-",
+                "requestFirstLine": "POST /thmemberpoints/memberPointsService/pointsService HTTP/1.1"
+            },
+            {
+                "rowkey": "01:9223370602126033807999999:127.0.0.1",
+                "bytesSent": "251",
+                "dateTime": "19/Jun/2015:23:45:42 +0800",
+                "httpStatus": "200",
+                "logicalUsername": "-",
+                "remoteHostName": "127.0.0.1",
+                "remoteUser": "-",
+                "requestFirstLine": "POST /thmemberpoints/memberPointsService/pointsService HTTP/1.1"
+            },
+            {
+                "rowkey": "01:9223370602126101807999999:127.0.0.1",
+                "bytesSent": "1134",
+                "dateTime": "19/Jun/2015:23:44:34 +0800",
+                "httpStatus": "200",
+                "logicalUsername": "-",
+                "remoteHostName": "127.0.0.1",
+                "remoteUser": "-",
+                "requestFirstLine": "POST /thmemberpoints/memberPointsService/pointsService HTTP/1.1"
+            },
+            {
+                "rowkey": "01:9223370602126140807999999:127.0.0.1",
+                "bytesSent": "8754",
+                "dateTime": "19/Jun/2015:23:43:55 +0800",
+                "httpStatus": "200",
+                "logicalUsername": "-",
+                "remoteHostName": "127.0.0.1",
+                "remoteUser": "-",
+                "requestFirstLine": "POST /thmemberpoints/memberPointsService/pointsService HTTP/1.1"
+            },
+            {
+                "rowkey": "01:9223370602126141807999999:127.0.0.1",
+                "bytesSent": "362",
+                "dateTime": "19/Jun/2015:23:43:54 +0800",
+                "httpStatus": "200",
+                "logicalUsername": "-",
+                "remoteHostName": "127.0.0.1",
+                "remoteUser": "-",
+                "requestFirstLine": "POST /thmemberpoints/memberPointsService/pointsService HTTP/1.1"
+            },
+            {
+                "rowkey": "01:9223370602126178807999999:127.0.0.1",
+                "bytesSent": "1040",
+                "dateTime": "19/Jun/2015:23:43:17 +0800",
+                "httpStatus": "200",
+                "logicalUsername": "-",
+                "remoteHostName": "127.0.0.1",
+                "remoteUser": "-",
+                "requestFirstLine": "POST /thmemberpoints/memberPointsService/pointsService HTTP/1.1"
+            },
+            {
+                "rowkey": "01:9223370602126494807999998:127.0.0.1",
+                "bytesSent": "1046",
+                "dateTime": "19/Jun/2015:23:38:01 +0800",
+                "httpStatus": "200",
+                "logicalUsername": "-",
+                "remoteHostName": "127.0.0.1",
+                "remoteUser": "-",
+                "requestFirstLine": "POST /thmemberpoints/memberPointsService/pointsService HTTP/1.1"
+            },
+            {
+                "rowkey": "01:9223370602126628807999999:127.0.0.1",
+                "bytesSent": "251",
+                "dateTime": "19/Jun/2015:23:35:47 +0800",
+                "httpStatus": "200",
+                "logicalUsername": "-",
+                "remoteHostName": "127.0.0.1",
+                "remoteUser": "-",
+                "requestFirstLine": "POST /thmemberpoints/memberPointsService/pointsService HTTP/1.1"
+            },
+            {
+                "rowkey": "01:9223370602126677807999999:127.0.0.1",
+                "bytesSent": "1040",
+                "dateTime": "19/Jun/2015:23:34:58 +0800",
+                "httpStatus": "200",
+                "logicalUsername": "-",
+                "remoteHostName": "127.0.0.1",
+                "remoteUser": "-",
+                "requestFirstLine": "POST /thmemberpoints/memberPointsService/pointsService HTTP/1.1"
+            },
+            {
+                "rowkey": "01:9223370602126713807999999:127.0.0.1",
+                "bytesSent": "251",
+                "dateTime": "19/Jun/2015:23:34:22 +0800",
+                "httpStatus": "200",
+                "logicalUsername": "-",
+                "remoteHostName": "127.0.0.1",
+                "remoteUser": "-",
+                "requestFirstLine": "POST /thmemberpoints/memberPointsService/pointsService HTTP/1.1"
+            },
+            {
+                "rowkey": "01:9223370602126812807999999:127.0.0.1",
+                "bytesSent": "251",
+                "dateTime": "19/Jun/2015:23:32:43 +0800",
+                "httpStatus": "200",
+                "logicalUsername": "-",
+                "remoteHostName": "127.0.0.1",
+                "remoteUser": "-",
+                "requestFirstLine": "POST /thmemberpoints/memberPointsService/pointsService HTTP/1.1"
+            },
+            {
+                "rowkey": "01:9223370602126912807999999:127.0.0.1",
+                "bytesSent": "251",
+                "dateTime": "19/Jun/2015:23:31:03 +0800",
+                "httpStatus": "200",
+                "logicalUsername": "-",
+                "remoteHostName": "127.0.0.1",
+                "remoteUser": "-",
+                "requestFirstLine": "POST /thmemberpoints/memberPointsService/pointsService HTTP/1.1"
+            },
+            {
+                "rowkey": "01:9223370602127109807999998:127.0.0.1",
+                "bytesSent": "1036",
+                "dateTime": "19/Jun/2015:23:27:46 +0800",
+                "httpStatus": "200",
+                "logicalUsername": "-",
+                "remoteHostName": "127.0.0.1",
+                "remoteUser": "-",
+                "requestFirstLine": "POST /thmemberpoints/memberPointsService/pointsService HTTP/1.1"
+            },
+            {
+                "rowkey": "01:9223370602127220807999998:127.0.0.1",
+                "bytesSent": "251",
+                "dateTime": "19/Jun/2015:23:25:55 +0800",
+                "httpStatus": "200",
+                "logicalUsername": "-",
+                "remoteHostName": "127.0.0.1",
+                "remoteUser": "-",
+                "requestFirstLine": "POST /thmemberpoints/memberPointsService/pointsService HTTP/1.1"
+            },
+            {
+                "rowkey": "01:9223370602127323807999999:127.0.0.1",
+                "bytesSent": "251",
+                "dateTime": "19/Jun/2015:23:24:12 +0800",
+                "httpStatus": "200",
+                "logicalUsername": "-",
+                "remoteHostName": "127.0.0.1",
+                "remoteUser": "-",
+                "requestFirstLine": "POST /thmemberpoints/memberPointsService/pointsService HTTP/1.1"
+            },
+            {
+                "rowkey": "01:9223370602127406807999999:127.0.0.1",
+                "bytesSent": "8688",
+                "dateTime": "19/Jun/2015:23:22:49 +0800",
+                "httpStatus": "200",
+                "logicalUsername": "-",
+                "remoteHostName": "127.0.0.1",
+                "remoteUser": "-",
+                "requestFirstLine": "POST /thmemberpoints/memberPointsService/pointsService HTTP/1.1"
+            },
+            {
+                "rowkey": "01:9223370602127418807999999:127.0.0.1",
+                "bytesSent": "8161",
+                "dateTime": "19/Jun/2015:23:22:37 +0800",
+                "httpStatus": "200",
+                "logicalUsername": "-",
+                "remoteHostName": "127.0.0.1",
+                "remoteUser": "-",
+                "requestFirstLine": "POST /thmemberpoints/memberPointsService/pointsService HTTP/1.1"
+            },
+            {
+                "rowkey": "01:9223370602127426807999999:127.0.0.1",
+                "bytesSent": "8363",
+                "dateTime": "19/Jun/2015:23:22:29 +0800",
+                "httpStatus": "200",
+                "logicalUsername": "-",
+                "remoteHostName": "127.0.0.1",
+                "remoteUser": "-",
+                "requestFirstLine": "POST /thmemberpoints/memberPointsService/pointsService HTTP/1.1"
+            },
+            {
+                "rowkey": "01:9223370602127455807999998:127.0.0.1",
+                "bytesSent": "7905",
+                "dateTime": "19/Jun/2015:23:22:00 +0800",
+                "httpStatus": "200",
+                "logicalUsername": "-",
+                "remoteHostName": "127.0.0.1",
+                "remoteUser": "-",
+                "requestFirstLine": "POST /thmemberpoints/memberPointsService/pointsService HTTP/1.1"
+            },
+            {
+                "rowkey": "01:9223370602127455807999999:127.0.0.1",
+                "bytesSent": "362",
+                "dateTime": "19/Jun/2015:23:22:00 +0800",
+                "httpStatus": "200",
+                "logicalUsername": "-",
+                "remoteHostName": "127.0.0.1",
+                "remoteUser": "-",
+                "requestFirstLine": "POST /thmemberpoints/memberPointsService/pointsService HTTP/1.1"
+            },
+            {
+                "rowkey": "01:9223370602127463807999997:127.0.0.1",
+                "bytesSent": "1048",
+                "dateTime": "19/Jun/2015:23:21:52 +0800",
+                "httpStatus": "200",
+                "logicalUsername": "-",
+                "remoteHostName": "127.0.0.1",
+                "remoteUser": "-",
+                "requestFirstLine": "POST /thmemberpoints/memberPointsService/pointsService HTTP/1.1"
+            },
+            {
+                "rowkey": "01:9223370602127510807999999:127.0.0.1",
+                "bytesSent": "1036",
+                "dateTime": "19/Jun/2015:23:21:05 +0800",
+                "httpStatus": "200",
+                "logicalUsername": "-",
+                "remoteHostName": "127.0.0.1",
+                "remoteUser": "-",
+                "requestFirstLine": "POST /thmemberpoints/memberPointsService/pointsService HTTP/1.1"
+            },
+            {
+                "rowkey": "01:9223370602127583807999988:127.0.0.1",
+                "bytesSent": "1036",
+                "dateTime": "19/Jun/2015:23:19:52 +0800",
+                "httpStatus": "200",
+                "logicalUsername": "-",
+                "remoteHostName": "127.0.0.1",
+                "remoteUser": "-",
+                "requestFirstLine": "POST /thmemberpoints/memberPointsService/pointsService HTTP/1.1"
+            },
+            {
+                "rowkey": "01:9223370602127604807999996:127.0.0.1",
+                "bytesSent": "251",
+                "dateTime": "19/Jun/2015:23:19:31 +0800",
+                "httpStatus": "200",
+                "logicalUsername": "-",
+                "remoteHostName": "127.0.0.1",
+                "remoteUser": "-",
+                "requestFirstLine": "POST /thmemberpoints/memberPointsService/pointsService HTTP/1.1"
+            },
+            {
+                "rowkey": "01:9223370602127822807999998:127.0.0.1",
+                "bytesSent": "7367",
+                "dateTime": "19/Jun/2015:23:15:53 +0800",
+                "httpStatus": "200",
+                "logicalUsername": "-",
+                "remoteHostName": "127.0.0.1",
+                "remoteUser": "-",
+                "requestFirstLine": "POST /thmemberpoints/memberPointsService/pointsService HTTP/1.1"
+            },
+            {
+                "rowkey": "01:9223370602127822807999999:127.0.0.1",
+                "bytesSent": "362",
+                "dateTime": "19/Jun/2015:23:15:53 +0800",
+                "httpStatus": "200",
+                "logicalUsername": "-",
+                "remoteHostName": "127.0.0.1",
+                "remoteUser": "-",
+                "requestFirstLine": "POST /thmemberpoints/memberPointsService/pointsService HTTP/1.1"
+            },
+            {
+                "rowkey": "01:9223370602127841807999999:127.0.0.1",
+                "bytesSent": "905",
+                "dateTime": "19/Jun/2015:23:15:34 +0800",
+                "httpStatus": "200",
+                "logicalUsername": "-",
+                "remoteHostName": "127.0.0.1",
+                "remoteUser": "-",
+                "requestFirstLine": "POST /thmemberpoints/memberPointsService/pointsService HTTP/1.1"
+            },
+            {
+                "rowkey": "01:9223370602128028807999998:127.0.0.1",
+                "bytesSent": "6859",
+                "dateTime": "19/Jun/2015:23:12:27 +0800",
+                "httpStatus": "200",
+                "logicalUsername": "-",
+                "remoteHostName": "127.0.0.1",
+                "remoteUser": "-",
+                "requestFirstLine": "POST /thmemberpoints/memberPointsService/pointsService HTTP/1.1"
+            }
+        ]
+    },
+    "entityType": "com.tairan.cloud.hbase.domain.TBData",
+    "metadata": {
+        "Content-Type": [
+            {
+                "type": "application",
+                "subtype": "json",
+                "parameters": {},
+                "wildcardType": false,
+                "wildcardSubtype": false
+            }
+        ]
+    },
+    "status": 200
+}

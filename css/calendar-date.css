@@ -1,0 +1,8 @@
+h1,h2,h3{font:bold 36px/1 "\5fae\8f6f\96c5\9ed1";}
+h2{font-size:20px;}
+h3{font-size:16px;}
+fieldset{margin:1em 0;}
+fieldset legend{font:bold 12px/2 "\5fae\8f6f\96c5\9ed1";}
+a{color:#06f;text-decoration:none;}
+a:hover{color:#00f;}
+.wrap{width:600px;margin:0 auto;padding:20px 40px;border:2px solid #999;border-radius:8px;background:#fff;box-shadow:0 0 10px rgba(0,0,0,0.5);}
