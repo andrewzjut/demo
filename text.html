@@ -1,0 +1,29 @@
+<html>
+<head>
+    <title>demo</title>
+    <style type="text/css">
+        .active
+        {
+            color: red;
+        }
+    </style>
+    <script type="text/javascript" src="js/lib/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $(".menu li").click(function () {
+                $("li[class='active']").removeAttr("class");
+                $(this).addClass("active");
+            });
+        });
+    </script>
+</head>
+<body>
+<ul class="menu">
+    <li class="active">a</li>
+    <li>b</li>
+    <li>c</li>
+    <li>d</li>
+    <li>f</li>
+</ul>
+</body>
+</html>

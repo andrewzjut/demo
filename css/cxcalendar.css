@@ -1,6 +1,6 @@
 /* 日期输入框
 ------------------------------ */
-input.input_cxcalendar{width:78px;height:18px;padding:1px 5px;border:1px solid #555;background:url(http://m1.img.srcdd.com/farm4/d/2014/0707/22/A8CA91DF994286F747446C820C03DDC3_B500_900_16_16.png) no-repeat right center;font:12px/18px Arial;cursor:pointer;}
+input.input_cxcalendar{width:78px;height:38px;padding:1px 5px;border:1px solid #555;background:url(http://m1.img.srcdd.com/farm4/d/2014/0707/22/A8CA91DF994286F747446C820C03DDC3_B500_900_16_16.png) no-repeat right center;font:12px/18px Arial;cursor:pointer;}
 body,html{height:100%;}
 /* 日期选择器
 ------------------------------ */

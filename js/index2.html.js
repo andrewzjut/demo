@@ -75,8 +75,6 @@ function showLocalhost_access_log(url,flag){
             logNumber=0;
         }
         $.each(data,function(index,item){
-            var pageSize = item[resultList].length;
-            alert(pageSize)
             if(index == "entity"){
                 if(item ==0){
                     $("#getJSON").append(
